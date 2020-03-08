@@ -7,4 +7,4 @@
 #=================================================
 # Modify default IP
 sed -i 's/192.168.1.100/192.168.123.99/g' package/base-files/files/bin/config_generate
-git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/lean/
+git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/
